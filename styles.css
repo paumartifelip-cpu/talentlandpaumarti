@@ -260,6 +260,58 @@ body {
     fill: currentColor;
 }
 
+.contact-container {
+    display: flex;
+    gap: 16px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact-btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 24px;
+    border-radius: 24px;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-family: 'Google Sans', sans-serif;
+    border: 1px solid transparent;
+}
+
+.contact-btn svg {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    fill: currentColor;
+}
+
+.whatsapp-btn {
+    background-color: #25D366;
+    color: white;
+}
+
+.whatsapp-btn:hover {
+    background-color: #20ba59;
+    box-shadow: 0 4px 12px rgba(37, 211, 102, 0.3);
+    transform: translateY(-2px);
+}
+
+.instagram-btn {
+    background-color: #ffffff;
+    color: #E1306C;
+    border: 1px solid #E1306C;
+}
+
+.instagram-btn:hover {
+    background-color: #E1306C;
+    color: white;
+    box-shadow: 0 4px 12px rgba(225, 48, 108, 0.3);
+    transform: translateY(-2px);
+}
+
 .no-results {
     text-align: center;
     padding: 60px 20px;
