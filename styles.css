@@ -133,10 +133,32 @@ body {
     z-index: 10;
 }
 
-.grid-container {
+.grid-container, .category-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 24px;
+    margin-bottom: 40px;
+}
+
+.category-header {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin: 40px 0 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--hover-bg);
+    font-family: 'Google Sans', sans-serif;
+}
+
+.card-text-content {
+    flex: 1;
+}
+
+.card-description {
+    font-size: 14px;
+    color: var(--text-secondary);
+    margin-top: 8px;
+    line-height: 1.4;
 }
 
 .card {
