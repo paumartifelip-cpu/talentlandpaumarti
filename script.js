@@ -4,6 +4,7 @@ const toolsData = [
     { title: "GEMINI", url: "https://gemini.google.com/app", description: "Tu asistente inteligente para automatizar tareas diarias y analizar tus documentos personales.", category: "Productividad y Asistencia Personal", video: null },
     { title: "CANVAS O LIENZO", url: "https://chatgpt.com/", description: "Escribe y mejora textos directamente con ayuda de la IA, editando solo lo que necesitas.", category: "Productividad y Asistencia Personal", video: null },
     { title: "GOOGLE OPAL", url: "https://opal.google/", description: "Crea automatizaciones sencillas que te ahorran tiempo en tareas repetitivas.", category: "Productividad y Asistencia Personal", video: "https://youtu.be/Wx5L_LEopgU" },
+    { title: "GOOGLE FLOW", url: "https://labs.google/flow/about", description: "Experimenta con el futuro de la IA narrativa y flujos de trabajo inteligentes de Google.", category: "Productividad y Asistencia Personal", video: "https://youtu.be/QO3MIleJ0Yo" },
     
     // Gestión del Conocimiento e Información
     { title: "NOTEBOOK LM", url: "https://notebooklm.google/", description: "Convierte textos largos en resúmenes fáciles, podcasts o mapas mentales automáticos.", category: "Gestión del Conocimiento e Información", video: "https://youtu.be/cWDuY4nu-ME" },
@@ -28,6 +29,7 @@ const toolsData = [
     { title: "MAKE", url: "https://www.make.com/", description: "La plataforma visual para automatizar cualquier proceso digital de forma sencilla.", category: "Automatización y Flujos", video: "https://youtu.be/HV4tZUneMXg" },
     { title: "OPUS CLIP", url: "https://www.opus.pro/es-es", description: "Convierte vídeos largos en clips cortos virales para redes sociales con un clic.", category: "Edición y Multimedia", video: "https://youtu.be/deR4y0NGEM4" },
     { title: "NAPKIN AI", url: "https://www.napkin.ai/", description: "Transforma tus ideas y textos en diagramas y visuales explicativos al instante.", category: "Edición y Multimedia", video: "https://youtu.be/22hrGh8gnM8" },
+    { title: "ARTICULERO", url: "https://chatgpt.com/g/g-691a768560748191a76e32f2f960eb1e-articulero-2-0", description: "Tu redactor personal para crear artículos y blogs profesionales con un par de clics.", category: "Edición y Multimedia", video: null },
     { title: "IA PARA NIÑOS", url: "https://chatgpt.com/g/g-68711f8bed148191b3391b1f24652b1d-ia-para-ninos", description: "Una forma segura y divertida de que los más pequeños aprendan y creen con IA.", category: "Otras Herramientas", video: null }
 ];
 
